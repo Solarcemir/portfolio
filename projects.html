@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link rel="stylesheet" href="webstyle.css">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#09f">
+  <link rel="icon" href="logocode.png">
+  <meta name="description" content="Luis Hoi portfolio, University of Guelph CS Student">
+</head>
+
+
+
+<body>
+  <div class="page-wrapper">
+    <div class="nav-bar">
+      <a href="home.html"><img title="logo" src="images/logocode.png" alt="logo" class="nav-emblem"></a>
+      <ul class="nav-list">
+        <li><a href="home.html" rel="noopener noreferrer">Home</a></li>
+        <li><a href="two.html" rel="noopener noreferrer">About Me</a></li>
+        <li><a href="one.html" rel="noopener noreferrer">Contact</a></li>
+        <li><a href="projects.html" rel="noopener noreferrer">My Projects</a></li>
+      </ul>
+    </div>
+
+
+
+
+    <div class="projects-header">
+      <h1 class="page-heading">
+        <strong>MY PROJECTS</strong>
+      </h1>
+      <img class="my-projects-photo" src="images/doge.png" alt="hackathon">
+    </div>
+  </div>
+
+
+
+  <div class="projects-section">
+    <div class="projects-block">
+      <a target="_blank" href="https://dorahacks.io/buidl/23068">
+        <h3>🦯 StreetSense - Navigating the World, Beyond Sight.</h3>
+      </a>
+      <p>
+
+
+        At my first hackathon, Hack Canada, I collaborated with an amazing team to develop <strong>StreetSense</strong>, a real-time AI-powered navigation tool for the visually impaired. The project aimed to make urban navigation safer and more independent for those with visual challenges.
+        <br><br>
+        We built the backend using <strong>Python</strong> and <strong>Flask</strong>, integrated with <strong>YOLOv3</strong> for object detection, <strong>OpenCV</strong> for image processing, and <strong>TensorFlow Lite</strong> for efficient on-device inference. Our goal was to detect crosswalks, vehicles, traffic signs, and more, delivering immediate, clear feedback to users.
+      </p>
+
+
+
+
+    <img class="projects-img" src="images/streetsense.webp" alt="hackathon">
+    <img class="projects-img" src="images/hackcanada.jpg" alt="hackathon">
+    <h3>💡 Key Features:</h3>
+    <ol  id="boxes">
+      <li><strong class="highlight-text">Real-Time Object Detection:</strong> Leveraged YOLOv3 trained on a custom dataset using Roboflow, capable of recognizing signs, lights, and hazards with high accuracy.</li>
+      <li><strong class="highlight-text">Depth Estimation:</strong> Used the MiDaS model (via ONNX Runtime) to calculate how far detected objects are, crucial for safe navigation.</li>
+      <li><strong class="highlight-text">Workflow Orchestration:</strong> Integrated Orkes Conductor to manage decision-making based on detected elements (e.g., traffic light status, proximity to obstacles).</li>
+      <li><strong class="highlight-text">Text Recognition:</strong> When store signs were detected, we sent images to Gemini API for OCR to read and relay text.</li>
+      <li><strong class="highlight-text">Multi-Modal Feedback:</strong> Planned integration of text-to-speech for voice guidance and vibration alerts for warning in critical scenarios.</li>
+    </ol>
+    <div class="project-gallery">
+      <img class="project-gallery" src="images/streetsensediagram.jpg" alt="">
+      <img class="project-gallery" src="images/streetsensephone.jpg" alt="">
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  <div class="projects-section">
+    <div class="projects-block">
+      <h3>🔧 New SunLight Tool (SL Tool)</h3>
+      <p>
+        <strong class="highlight-text">Modding Beyond Limits - Real-Time Enhancements for Mobile Games</strong>
+        The New SunLight Tool (SL Tool) is a powerful mod menu I developed for Android games, primarily using rooted devices and select virtual environments. This tool enhances gameplay by injecting advanced functions, manipulating memory values, and delivering real-time performance improvements for players who want deeper control of their gaming experience.
+        The project was built by identifying in-game values through Game Guardian, then scripting behavioral changes using Lua. Once the memory addresses and value modifications were defined, I integrated them into a sleek and responsive mod menu interface built with C++, commonly used in native Android modifications.
+      </p>
+      <img class="projects-img" src="images/sunlightool" alt="SolarTool">
+      <img class="projects-img" src="images/sunlightlogo.webp" alt="sunlightool">
+      <h3>🔧 SL Tool Main Features</h3>
+      <ol>
+
+        <li><strong class="highlight-text">Aimbot & Player Enhancements:</strong> Big Head, Big Body, Dino Aimbot - Improve hit accuracy by enlarging targets and locking aim.</li>
+        <li><strong class="highlight-text">Speed & Movement Tweaks:</strong> Flash Speed, Normal Speed, Sky View, Underground - Boost movement and explore unreachable areas.</li>
+      <li><strong class="highlight-text">Visual & ESP Features:</strong> Player Antenna, Night Vision, Body Glow - Highlight enemies and improve visibility in dark or hidden zones.</li>
+      <li><strong class="highlight-text">Combat & Environment Cheats:</strong> Bullet Spam, No Recoil, Ghost Mode - Gain advantage in combat and remove environmental effects like rain.</li>
+    </ol>
+
+
+
+    <div class="project-gallery">
+      <video width="350" height="280" controls>
+        <source src="images/modmenuaimbot.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <video width="350" height="280" controls>
+        <source src="images/Screenrecorder-2021-08-05-11-42-36-4880.mov" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="page-footer">
+  <p>© I need an internship. All rights reserved.</p>
+  <p>
+    🔗 <a href="https://www.linkedin.com/in/luis-hoi-41a8302a4/" class="footer-link">LinkedIn</a> |
+    💻 <a href="https://github.com/dashboard" class="footer-link">GitHub</a>
+    💻 <a href="404.html" class="footer-link">ERROR 404</a>
+  </p>
+  <p>Most images are my own. Icons were sourced from <a href="https://www.freepik.com" target="_blank">Freepik</a> and some made by me in CANVAS. Images 1 and 2 on the homepage feature me, styled with SORA-generated outfits.</p>
+</footer>
+</body>
+</html>
